@@ -7,7 +7,7 @@ import Calculation from './Component_session02/Calculation'
 import UserInfo from './Component_session02/UserInfo'
 import ColorBox from './Component_session02/ColorBox'
 import UserList from './Component_session02/UserList'
-import TodoListIndex from './Component_session02/TodoListIndex'
+import TodoListIndex from './session02_baitap6/TodoListIndex'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +20,7 @@ function App() {
   {/*  <ColorBox/> */}
   {/* <UserList/> */}
   <TodoListIndex/>
+  
 
 
     </>

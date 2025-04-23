@@ -5,6 +5,7 @@ import "./App.css";
 import FormUserList from "./baitap01/FormUserList";
 import UserList from "./baitap01/UserList";
 import ShoppingCart from "./Baitap02/ShoppingCart";
+import Dashboard from "./Baitap03/Dashboard";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,7 +13,9 @@ function App() {
   return (
     <>
      {/*  <UserList /> */}
-     <ShoppingCart/>
+    {/*  <ShoppingCart/> */}
+    <Dashboard/>
+    
      
     </>
   );
